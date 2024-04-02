@@ -415,7 +415,7 @@ body{
 .radial-bars{
     width: 48%;
     display: inline-block; 
-    
+    padding-right: 10px;
     
 }
 .radial-bars .radial-bar{
@@ -466,14 +466,18 @@ body{
 .path-4{
     animation: animate-path4 1s 1s linear forwards;
 }
+.path-5{
+    animation: animate-path5 1s 1s linear forwards;
+}
+
 @keyframes animate-path1{
     100%{
-        stroke-dashoffset: 50;
+        stroke-dashoffset: 95;
     }
 }
 @keyframes animate-path2{
     100%{
-        stroke-dashoffset: 100;
+        stroke-dashoffset: 40;
     }
 }
 @keyframes animate-path3{
@@ -486,12 +490,18 @@ body{
         stroke-dashoffset: 250;
     }
 }
+@keyframes animate-path5{
+    100%{
+        stroke-dashoffset: 180;
+    }
+}
+
 .radial-bar .percentage{
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    font-size: 17px;
+    font-size: 10px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
@@ -503,7 +513,7 @@ body{
     left:50%;
     bottom: -5px;
     transform: translateX(-50px);
-    font-size: 17px;
+    font-size: 10px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
@@ -587,13 +597,13 @@ body{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap:3rem;
-    padding-left: 30px;
-    margin-top: 130px;
+    padding: 10px 10% 0;
+
 }
 .contact-text h2{
     font-size: 60px;
     line-height: 1;
-    text-align: center;
+    text-align:left;
 }
 .contact-text h2 span{
     color: #0ef;
@@ -606,9 +616,10 @@ body{
 }
 .contact-text p{
     color: rgb(177,177,177);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     margin-bottom: 2rem;
+    text-align: justify;
 }
 .contact-list{
     margin-bottom: 3rem;
@@ -651,6 +662,15 @@ body{
     color: #000000;
     box-shadow: 0 0 20px #0ef;
 }
+.contact-img img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width:650px;
+    height: auto;
+    width:550px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
 .last-text p{
     width: 100%;
     text-align: center;
@@ -660,9 +680,9 @@ body{
     margin-top: 70px;
 }
 .top{
-    position: fixed;
-    bottom:2.1rem;
-    right:2, 1rem;
+    position:relative;
+    bottom:3.1rem;
+    padding-left: 10px;
 }
 .top i{
     color: #000000;
