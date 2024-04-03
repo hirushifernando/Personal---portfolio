@@ -54,7 +54,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background:rgb(26, 26, 59);
+    background:#1a1a3b;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -533,12 +533,14 @@ body{
 .portfolio-content{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    margin:0 20px;
 }
 .row{
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    margin: 0px 10px;
 }
 .row img{
     width:100%;
@@ -564,15 +566,17 @@ body{
     transition: height 0.5s;
 }
 .layer h5{
-    color: #000000;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
+   
 }
 .layer p{
-    color: #000000;
-    font-size: 1rem;
-    line-height: 1.8;
+    color: #fbff00;
+    font-size: 12px;
+    text-align: justify;
+
 }
 .layer i{
     color: #ff004f;
@@ -675,7 +679,7 @@ body{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: rgb(7, 85, 91);
+    background: #07555b;
     font-weight: 300;
     margin-top: 70px;
 }
