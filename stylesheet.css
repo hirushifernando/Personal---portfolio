@@ -472,7 +472,7 @@ body{
 
 @keyframes animate-path1{
     100%{
-        stroke-dashoffset: 95;
+        stroke-dashoffset: 85;
     }
 }
 @keyframes animate-path2{
@@ -482,7 +482,7 @@ body{
 }
 @keyframes animate-path3{
     100%{
-        stroke-dashoffset: 235;
+        stroke-dashoffset: 115;
     }
 }
 @keyframes animate-path4{
@@ -519,11 +519,12 @@ body{
     opacity: 0;
 }
 .main-text{
-    padding-top: 130px;
+    padding-top: 60px;
     margin-top: 200px;
 }
 .main-text h2{
     font-size: 60px;
+    margin-bottom: 70px;
     line-height: 1;
     text-align: center;
 }
