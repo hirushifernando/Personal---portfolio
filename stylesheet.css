@@ -183,6 +183,14 @@ body{
     line-height: 1.4;
     margin-bottom: 4rem;
 }
+#g-icon{
+    width:35px;
+    height:35px;
+}
+#ai-icon{
+    width:70px;
+    height:40px;
+}
 .sub-title{
     text-align: center;
     font-size: 60px;
@@ -520,7 +528,7 @@ body{
 }
 .main-text{
     padding-top: 60px;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 .main-text h2{
     font-size: 60px;
