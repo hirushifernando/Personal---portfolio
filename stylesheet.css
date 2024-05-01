@@ -69,7 +69,7 @@ body{
     animation-delay: .7s;
 }
 .home-content h3 span{
-    color: #0ef;
+    color: #6bbefa;
 }
 .home-content h3:nth-of-type(2){
     margin-bottom: 30px;
@@ -97,10 +97,10 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #6bbefa;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: #6bbefa;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition:.5s ease ;
@@ -109,14 +109,14 @@ body{
     animation-delay:calc(.2s * var(--i));
 }
 .home-sci a:hover {
-    background: #0ef;
+    background: #6bbefa;
     color:#081b29 ;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px #76c6ff;
 }
 .btn-box{
     display:inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #6bbefa;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -126,10 +126,10 @@ body{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow:0 0 5px #0ef, 0 0 25px #0ef ;
+    box-shadow:0 0 5px #6bbefa, 0 0 25px #6bbefa ;
 }
 .btn-box:hover{
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan, 0 0 200px cyan
+    box-shadow: 0 0 5px #6bbefa, 0 0 25px #6bbefa, 0 0 50px #6bbefa,0 0 100px #6bbefa, 0 0 200px #6bbefa
 }
 .home-img img{
     padding-bottom: 5%;
@@ -137,6 +137,9 @@ body{
     height: auto;
     width:100%;
     border-radius: 8px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
 }
 .about{
     display:flex;
@@ -152,13 +155,16 @@ body{
     width:700px;
     border-radius: 8px;
     padding-left: 50px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
 }
 .about-text h2{
     font-size: 60px;
     padding-left: 50px;
 }
 .about-text h2 span{
-    color: #0ef;
+    color: #6bbefa;
 }
 .about-text h4{
     font-size: 29px;
@@ -197,7 +203,7 @@ body{
     padding-bottom: 70px;
 }
 .sub-title span{
-    color: #0ef;
+    color: #6bbefa;
 }
 .container{
     padding: 90px;
@@ -240,7 +246,7 @@ body{
 .read{
    display: inline-block;
    padding: 12px 28px;
-   background: #0ef;
+   background: #6bbefa;
    border-radius: 40px;
    font-size: 16px;
    color:#081b29; 
@@ -250,11 +256,11 @@ body{
    opacity: 0;
    animation: slideTop 1s ease forwards;
    animation-delay: 2s;
-   box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+   box-shadow: 0 0 5px #6bbefa, 0 0 25px #6bbefa;
 }
 .read:hover{
     box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+    0 0 25px #6bbefa, 0 0 50px #6bbefa, 0 0 100px #6bbefa, 0 0 200px #6bbefa;
 }
 .services-list div:hover{
     transform: translateY(-10px);
@@ -316,7 +322,7 @@ body{
 }
 .Technical-bars .bar .progress-line span {
     height: 100%;
-    background-color: #0ef;
+    background-color: #6bbefa;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s cubic-bezier(1, 0, 0.5 ,1) forwards ;
@@ -456,7 +462,7 @@ body{
 }
 .path{
     stroke-width: 10;
-    stroke: #0ef;
+    stroke: #6bbefa;
     fill:transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -537,13 +543,20 @@ body{
     text-align: center;
 }
 .main-text h2 span{
-    color:#0ef;
+    color:#6bbefa;
 }
 .portfolio-content{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     margin:0 20px;
 }
+.icon-container {
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
 .row{
     position: relative;
     overflow: hidden;
@@ -619,7 +632,7 @@ body{
     text-align:left;
 }
 .contact-text h2 span{
-    color: #0ef;
+    color: #6bbefa;
 }
 .contact-text h4{
     margin: 15px 0;
@@ -643,14 +656,14 @@ body{
 }
 .contact-list i{
     display: inline-block;
-    color: #0ef;
+    color: #6bbefa;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
 }
 .conatct-list li a:hover{
     transform:scale(1.01) translateY(-5px);
-    color: #0ef;
+    color: #6bbefa;
 }
 .contact-icons i{
     display: inline-flex;
@@ -659,10 +672,10 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #6bbefa;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: #6bbefa;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition:.5s ease ;
@@ -671,9 +684,9 @@ body{
     animation-delay:calc(.2s * var(--i));
 }
 .contact-icons i:hover{
-    background: #0ef;
+    background: #6bbefa;
     color: #000000;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px #6bbefa;
 }
 .contact-img img{
     padding-top: 10px;
@@ -683,6 +696,9 @@ body{
     width:550px;
     border-radius: 8px;
     padding-left: 10px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
 }
 .last-text p{
     width: 100%;
@@ -699,7 +715,7 @@ body{
 }
 .top i{
     color: #000000;
-    background: #0ef;
+    background: #6bbefa;
     font-size: 20px;
     padding: 10px;
     border-radius: 0.5rem;
