@@ -354,7 +354,10 @@ body{
     width: 50%;
 }
 .progress-line.figma span{
-    width: 70%;
+    width: 77%;
+}
+.progress-line.wordpress span{
+    width: 50%;
 }
 .progress-line span::after{
     position: absolute;
@@ -392,7 +395,10 @@ body{
     content: "50%";
 }
 .progress-line.figma span::after{
-    content: "70%";
+    content: "77%";
+}
+.progress-line.wordpress span::after{
+    content: "50%";
 }
 .progress-line span::before{
     content: "";
