@@ -333,19 +333,19 @@ body{
     width: 90%;
 }
 .progress-line.css span{
-    width: 85%;
-}
-.progress-line.javascript span{
-    width: 50%;
-}
-.progress-line.react span{
     width: 80%;
 }
+.progress-line.javascript span{
+    width: 45%;
+}
+.progress-line.react span{
+    width: 75%;
+}
 .progress-line.nodejs span{
-    width: 65%;
+    width: 50%;
 }
 .progress-line.php span{
-    width: 45%;
+    width: 40%;
 }
 .progress-line.mongodb span{
     width: 50%;
@@ -354,10 +354,10 @@ body{
     width: 50%;
 }
 .progress-line.figma span{
-    width: 77%;
+    width: 80%;
 }
 .progress-line.wordpress span{
-    width: 50%;
+    width: 60%;
 }
 .progress-line span::after{
     position: absolute;
@@ -374,19 +374,19 @@ body{
     content: "90%";
 }
 .progress-line.css span::after{
-    content: "85%";
-}
-.progress-line.javascript span::after{
-    content: "50%";
-}
-.progress-line.react span::after{
     content: "80%";
 }
+.progress-line.javascript span::after{
+    content: "45%";
+}
+.progress-line.react span::after{
+    content: "75%";
+}
 .progress-line.nodejs span::after{
-    content: "65%";
+    content: "50%";
 }
 .progress-line.php span::after{
-    content: "45%";
+    content: "40%";
 }
 .progress-line.mongodb span::after{
     content: "50%";
@@ -395,10 +395,10 @@ body{
     content: "50%";
 }
 .progress-line.figma span::after{
-    content: "77%";
+    content: "80%";
 }
 .progress-line.wordpress span::after{
-    content: "50%";
+    content: "60%";
 }
 .progress-line span::before{
     content: "";
