@@ -416,6 +416,9 @@ body{
 .progress-line.wordpress span{
     width: 60%;
 }
+.progress-line.bootstap span{
+    width: 20%;
+}
 .progress-line span::after{
     position: absolute;
     padding: 1px 8px;
@@ -456,6 +459,9 @@ body{
 }
 .progress-line.wordpress span::after{
     content: "60%";
+}
+.progress-line.bootstap span::after{
+    content: "20%";
 }
 .progress-line span::before{
     content: "";
