@@ -390,16 +390,16 @@ body{
     width: 90%;
 }
 .progress-line.css span{
-    width: 80%;
-}
-.progress-line.javascript span{
-    width: 45%;
-}
-.progress-line.react span{
     width: 75%;
 }
+.progress-line.javascript span{
+    width: 40%;
+}
+.progress-line.react span{
+    width: 70%;
+}
 .progress-line.nodejs span{
-    width: 50%;
+    width: 47%;
 }
 .progress-line.php span{
     width: 40%;
@@ -411,13 +411,16 @@ body{
     width: 50%;
 }
 .progress-line.figma span{
-    width: 80%;
+    width: 70%;
 }
 .progress-line.wordpress span{
-    width: 60%;
+    width: 55%;
 }
 .progress-line.bootstap span{
     width: 20%;
+}
+.progress-line.photoshop span{
+    width: 10%;
 }
 .progress-line span::after{
     position: absolute;
@@ -434,16 +437,16 @@ body{
     content: "90%";
 }
 .progress-line.css span::after{
-    content: "80%";
-}
-.progress-line.javascript span::after{
-    content: "45%";
-}
-.progress-line.react span::after{
     content: "75%";
 }
+.progress-line.javascript span::after{
+    content: "40%";
+}
+.progress-line.react span::after{
+    content: "70%";
+}
 .progress-line.nodejs span::after{
-    content: "50%";
+    content: "47%";
 }
 .progress-line.php span::after{
     content: "40%";
@@ -455,13 +458,16 @@ body{
     content: "50%";
 }
 .progress-line.figma span::after{
-    content: "80%";
+    content: "70%";
 }
 .progress-line.wordpress span::after{
-    content: "60%";
+    content: "55%";
 }
 .progress-line.bootstap span::after{
     content: "20%";
+}
+.progress-line.photoshop span::after{
+    content: "10%";
 }
 .progress-line span::before{
     content: "";
