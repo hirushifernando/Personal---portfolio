@@ -85,6 +85,7 @@ body{
     text-decoration: none;
     display: block;
     transition: background-color 0.3s;
+    font-size: 15px;
 }
 
 .dropdown-content a:hover {
@@ -250,10 +251,12 @@ body{
 #g-icon{
     width:35px;
     height:35px;
+    margin-top: 12px;
 }
 #ai-icon{
-    width:70px;
-    height:40px;
+    width:45px;
+    height:35px;
+    margin-top: 12px;
 }
 .sub-title{
     text-align: center;
@@ -421,7 +424,10 @@ body{
     width: 20%;
 }
 .progress-line.photoshop span{
-    width: 10%;
+    width: 15%;
+}
+.progress-line.illustrator span{
+    width: 15%;
 }
 .progress-line span::after{
     position: absolute;
@@ -468,7 +474,10 @@ body{
     content: "20%";
 }
 .progress-line.photoshop span::after{
-    content: "10%";
+    content: "15%";
+}
+.progress-line.illustrator span::after{
+    content: "15%";
 }
 .progress-line span::before{
     content: "";
@@ -609,7 +618,7 @@ body{
     opacity: 0;
 }
 .main-text{
-    padding-top: 60px;
+    padding-top: 100px;
     margin-top: 300px;
 }
 .main-text h2{
