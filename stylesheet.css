@@ -8,14 +8,14 @@
 }
 body{
     color: #ededed;
-    background: #081b29;
+    background: #1b1b1d;
 }
 .header{
     position: fixed;
     top:0;
     left:0;
     width:100%;
-    background-color: #0a314d;
+    background-color: #1b1b1d;
     padding: 20px 10%;
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,7 @@ body{
 }
 
 .navbar a:hover {
-    color: #0ef;
+    color: rgb(0, 238, 255);
     text-shadow: 0 0 7px #d0e4ec, 0 0 10px #b9d7e3, 0 0 21px #a1cad9,
         0 0 42px #8abdd0;
 }
@@ -74,7 +74,7 @@ body{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #0a314d;
+    background-color: #1b1b1d;
     min-width: 160px;
     z-index: 1;
 }
@@ -89,7 +89,7 @@ body{
 }
 
 .dropdown-content a:hover {
-    background-color: #0a314d;
+    background-color: #2a2c2e;
 }
 
 .dropdown:hover .dropdown-content {
@@ -113,7 +113,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background:#1a1a3b;
+    background:#000000;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -192,9 +192,9 @@ body{
 }
 .home-img img{
     padding-bottom: 5%;
-    max-width: 630px;
+    max-width: 650px;
     height: auto;
-    width:100%;
+    width:600px;
     border-radius: 8px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
@@ -209,9 +209,9 @@ body{
 .about-img img{
     padding-top: 10px;
     padding-bottom: 10px;
-    max-width: 850px;
+    max-width: 700px;
     height: auto;
-    width:700px;
+    width:650px;
     border-radius: 8px;
     padding-left: 50px;
     opacity: 0;
@@ -221,6 +221,7 @@ body{
 .about-text h2{
     font-size: 50px;
     padding-left: 50px;
+    margin-top: 50px;
 }
 .about-text h2 span{
     color: #6bbefa;
@@ -241,6 +242,15 @@ body{
     text-align: justify;
     padding-right: 150px;
     padding-left: 50px;
+}
+.education-text h2{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 70px;
+    margin-top:60px;
+}
+.education-text h2 span{
+    color: #6bbefa;
 }
 #services{
     color: aliceblue;
@@ -710,6 +720,7 @@ body{
     align-items: center;
     gap:3rem;
     padding: 10px 10% 0;
+    margin-top: 90px;
 
 }
 .contact-text h2{
@@ -746,6 +757,7 @@ body{
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
+    margin-right: 10px;
 }
 .conatct-list li a:hover{
     transform:scale(1.01) translateY(-5px);
@@ -777,9 +789,9 @@ body{
 .contact-img img{
     padding-top: 10px;
     padding-bottom: 10px;
-    max-width:650px;
+    max-width:600px;
     height: auto;
-    width:550px;
+    width:500px;
     border-radius: 8px;
     padding-left: 10px;
     opacity: 0;
@@ -790,7 +802,7 @@ body{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #07555b;
+    background: #000000;
     font-weight: 300;
     margin-top: 70px;
 }
@@ -801,10 +813,73 @@ body{
 }
 .top i{
     color: #000000;
-    background: #6bbefa;
+    background: #ffffff;
     font-size: 20px;
     padding: 10px;
     border-radius: 0.5rem;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.card {
+    background-color:transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
+    padding: 35px;
+    width: 40%;
+    transition: background 0.5s, transform 0.5s;
+}
+.card:hover {
+    transform: translateX(-10px) scale(1.05);
+}
+.card h2 {
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    display: flex;
+    color: #ffffff;
+}
+.card i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.education-content, .experience-content {
+    margin-top: 20px;
+}
+.education-item, .experience-item {
+    margin-bottom: 20px;
+}
+.university {
+    color: rgba(240, 248, 255, 0.822);
+    font-size: 18px;
+}
+.year {
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.experience-item .position {
+    font-size:18px;
+    color: rgba(240, 248, 255, 0.822);
+    margin-bottom: 10px;
+}
+.experience-item ul {
+    list-style-type: disc;
+    padding-left: 28px;
+}
+
+.experience-item li {
+    font-size: 17px;
+    margin-bottom: 8px;
+    color: rgba(240, 248, 255, 0.822);
+    line-height: 1.6;
+}
+.experience-item strong {
+    color: #ffffff; /* A dark blue accent for emphasis */
 }
 @keyframes slideRight{
     0%{
@@ -1049,4 +1124,5 @@ body{
         padding-left: 0;
         margin: 0 auto;
     }
+    
 }
